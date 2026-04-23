@@ -31,17 +31,36 @@ Permite gestionar el entrenamiento de perros mediante ejercicios guiados, planes
 ---
 
 ## 📂 Estructura del proyecto
-
-
 WoofyWay/
-│── frontend/ → Aplicación móvil (React Native)
-│── backend/ → API REST (Node.js)
-│── database/ → Scripts SQL
-│── docs/ → Imágenes y documentación
-│── README.md
+├── frontend/      # App móvil (React Native + Expo)
+│   ├── assets/
+│   ├── components/
+│   ├── screens/
+│   ├── data/
+│   ├── App.js
+│   ├── AppNavigator.js
+│   └── theme.js
+│
+├── backend/       # API REST (Node.js + Express)
+│   ├── controllers/
+│   ├── routes/
+│   ├── middleware/
+│   ├── db/
+│   └── server.js
+│
+├── database/      # Base de datos PostgreSQL
+│   └── woofyway.sql
+│
+├── docs/          # Recursos visuales y documentación
+│   ├── login-web.png
+│   ├── dashboard.png
+│   ├── ejercicios.png
+│   ├── progreso.png
+│   ├── demo.mp4
+│   └── TFG.pdf
+│
+└── README.md
 
-
----
 
 ## 📸 Capturas de pantalla
 
@@ -131,7 +150,7 @@ Desarrollar una aplicación funcional de adiestramiento canino que permita:
 ## 👨‍💻 Autor
 
 Matheus Ferreira  
-Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)
+Técnico Superior en DAM
 
 ---
 
