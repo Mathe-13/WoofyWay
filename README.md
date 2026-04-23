@@ -1,126 +1,140 @@
-# 🐶 WoofyWay - App de Adiestramiento Canino
+<p align="center">
+  <img src="docs/logo.png" width="120" />
+</p>
 
-Aplicación móvil fullstack desarrollada como Trabajo de Fin de Grado (TFG) en Desarrollo de Aplicaciones Multiplataforma (DAM).
+<h1 align="center">🐶 WoofyWay</h1>
+<p align="center">App de adiestramiento canino inteligente</p>
 
-WoofyWay permite a los usuarios gestionar el entrenamiento de sus perros mediante ejercicios guiados, planes personalizados y seguimiento de progreso.
+<p align="center">
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
+</p>
+
+---
+
+## 📱 Descripción
+
+WoofyWay es una aplicación móvil desarrollada como Trabajo de Fin de Grado (TFG) en Desarrollo de Aplicaciones Multiplataforma (DAM).
+
+Permite gestionar el entrenamiento de perros mediante ejercicios guiados, planes personalizados y seguimiento del progreso.
 
 ---
 
 ## 🚀 Tecnologías utilizadas
 
-* React Native (Expo)
-* Node.js + Express
-* PostgreSQL
-* JWT (autenticación)
+- React Native (Frontend)
+- Node.js + Express (Backend)
+- PostgreSQL (Base de datos)
+- Expo (Testing móvil)
 
 ---
 
-## 📱 Funcionalidades principales
+## 📂 Estructura del proyecto
 
-* Registro e inicio de sesión de usuarios
-* Gestión del perfil del perro
-* Listado de ejercicios de adiestramiento
-* Detalle paso a paso de cada ejercicio
-* Planes de entrenamiento personalizados
-* Seguimiento del progreso
-* Navegación completa entre pantallas
+
+WoofyWay/
+│── frontend/ → Aplicación móvil (React Native)
+│── backend/ → API REST (Node.js)
+│── database/ → Scripts SQL
+│── docs/ → Imágenes y documentación
+│── README.md
+
 
 ---
 
 ## 📸 Capturas de pantalla
 
-### 🔐 Login (Web)
-
+### 🔐 Login
 ![Login Web](docs/login-web.png)
-
-### 📱 Login (Mobile)
-
 ![Login Mobile](docs/login-mobile.png)
 
 ---
 
 ### 🏠 Dashboard
-
 ![Dashboard](docs/dashboard.png)
 
 ---
 
 ### 🐶 Perfil del perro
-
 ![Perfil](docs/perfil-perro.png)
 
 ---
 
 ### 🏋️ Ejercicios
-
 ![Ejercicios](docs/ejercicios.png)
 
 ---
 
 ### 📘 Detalle de ejercicios
 
+#### Ejercicio 1
 ![Ejercicio 1](docs/ejercicio-1.png)
+
+#### Ejercicio 2
 ![Ejercicio 2](docs/ejercicio-2.png)
+
+#### Ejercicio 3
 ![Ejercicio 3](docs/ejercicio-3.png)
 
 ---
 
 ### 📊 Progreso
-
 ![Progreso](docs/progreso.png)
 
 ---
 
 ### 📋 Planes de entrenamiento
-
 ![Planes](docs/Planes.png)
 
 ---
 
 ### 👋 Cierre de sesión
-
 ![Cierre](docs/Cierre.png)
 
 ---
 
-## 🎥 Demo de la aplicación
+## 🎥 Demo del proyecto
 
-👉 [Ver demo completa](docs/demo.mp4)
-
----
-
-## 📄 Documentación completa
-
-👉 [Ver documento TFG](docs/TFG-MATHEUS-FERREIRA-CESUR-MADRID.pdf)
+📹 Ver demo:  
+[Descargar vídeo](docs/demo.mp4)
 
 ---
 
-## 🧠 Arquitectura
+## 📄 Documentación
 
-* Frontend: React Native
-* Backend: API REST con Node.js
-* Base de datos: PostgreSQL
-* Autenticación mediante JWT
+📘 Memoria del TFG:  
+[Descargar PDF](docs/TFG-MATHEUS-FERREIRA-CESUR-MADRID.pdf)
 
 ---
 
-## 📚 Aprendizajes
+## 🎯 Objetivo del proyecto
 
-* Desarrollo fullstack
-* Consumo de APIs
-* Autenticación de usuarios
-* Diseño de bases de datos
-* Organización de proyectos reales
+Desarrollar una aplicación funcional de adiestramiento canino que permita:
+
+- Mejorar la relación entre dueño y mascota  
+- Facilitar el aprendizaje de comandos básicos  
+- Implementar un sistema escalable real  
 
 ---
 
-## 🧑‍💻 Autor
+## 🚧 Mejoras futuras
 
-Matheus Ferreira
+- Conexión completa en tiempo real con backend  
+- Notificaciones push  
+- Sistema de recomendaciones personalizadas  
+- Deploy en producción  
+- Mejora de UI/UX  
+
+---
+
+## 👨‍💻 Autor
+
+Matheus Ferreira  
 Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)
 
 ---
 
 ## 📌 Notas
 
-Proyecto desarrollado con fines educativos, con enfoque en arquitectura escalable y posibilidad de evolución a producto real.
+Proyecto desarrollado con fines educativos, pero diseñado con una arquitectura preparada para una posible aplicación real.
